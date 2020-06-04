@@ -4,7 +4,7 @@ const characterCount = text => {
 
   // Zero Width Joiner: https://emojipedia.org/emoji/%E2%80%8D/
   const separator = '‍';
-  const transformed = [...text.trim()].filter(i => variations.indexOf(i) === -1);
+  const transformed = [...text].filter(i => variations.indexOf(i) === -1);
 
   // Get all common ascii items
   const ascii = transformed.filter(i => i.length === 1 && i !== separator).length;
