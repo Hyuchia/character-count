@@ -12,5 +12,7 @@ describe('Emoji lengths', function() {
     expect(characterCount('👩🏿‍🦽')).to.equal(1);
     expect(characterCount('👩‍👧‍👧')).to.equal(1);
     expect(characterCount('🤲🏿')).to.equal(1);
+    expect(characterCount('🙇‍♂️')).to.equal(1);
+    expect(characterCount('👨‍🏫')).to.equal(1);
   });
 });
