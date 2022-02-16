@@ -1,10 +1,10 @@
 const path = require('path');
 
-module.exports = env => {
+module.exports = (env) => {
   let minimize = false;
 
   if (env) {
-    minimize = env.min;
+    minimize = env.min === true;
   }
 
   return {

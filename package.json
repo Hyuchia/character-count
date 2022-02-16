@@ -1,53 +1,53 @@
 {
-    "name": "@blac-sheep/character-count",
-    "version": "0.1.2",
-    "description": "A simple utility to count characters in a string equally.",
-    "keywords": [
-      "count",
-      "length",
-      "emoji",
-      "unicode",
-      "string",
-      "character"
-    ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/BlacSheepLLC/character-count.git"
-    },
-    "main": "dist/character-count.min.js",
-    "module": "src/index.js",
-    "author": "Blac-Sheep LLC",
-    "bugs": {
-      "url": "https://github.com/BlacSheepLLC/character-count/issues"
-    },
-    "license": "MIT",
-    "private": false,
-    "scripts": {
-      "build": "yarn webpack --config webpack.config.js --env.min && yarn webpack --config webpack.config.js ",
-      "test": "yarn run cypress run"
-    },
-    "dependencies": {},
-    "devDependencies": {
-      "@babel/core": "^7.8.3",
-      "@babel/preset-env": "^7.8.3",
-      "@cypress/webpack-preprocessor": "^4.1.1",
-      "babel-eslint": "^10.0.3",
-      "babel-loader": "^8.0.6",
-      "core-js": "^3.6.4",
-      "cypress": "^3.8.2",
-      "eslint": "^6.5.1",
-      "eslint-config-prettier": "^6.7.0",
-      "eslint-plugin-prettier": "^3.1.1",
-      "prettier": "^1.19.1",
-      "webpack": "^4.41.5",
-      "webpack-cli": "^3.3.10"
-    },
-    "files": [
-      "package.json",
-      "yarn.lock",
-      "src/*",
-      "dist/*",
-      "LICENSE.md",
-      "README.md"
-    ]
-  }
+  "name": "@blac-sheep/character-count",
+  "version": "0.2.0",
+  "description": "A simple utility to count characters in a string equally.",
+  "keywords": [
+    "count",
+    "length",
+    "emoji",
+    "unicode",
+    "string",
+    "character"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlacSheepLLC/character-count.git"
+  },
+  "main": "dist/character-count.min.js",
+  "module": "src/index.js",
+  "author": "Blac-Sheep LLC",
+  "bugs": {
+    "url": "https://github.com/BlacSheepLLC/character-count/issues"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "yarn webpack --config webpack.config.js --env min && yarn webpack --config webpack.config.js ",
+    "test": "yarn run cypress run"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.17.4",
+    "@babel/preset-env": "^7.16.11",
+    "@cypress/webpack-preprocessor": "^5.11.1",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.2.3",
+    "core-js": "^3.21.0",
+    "cypress": "^9.5.0",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "webpack": "^5.69.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "files": [
+    "package.json",
+    "yarn.lock",
+    "src/*",
+    "dist/*",
+    "LICENSE.md",
+    "README.md"
+  ]
+}
